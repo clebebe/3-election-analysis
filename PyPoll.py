@@ -69,8 +69,14 @@ with open(file_to_load) as election_data:
 
             #print each candidate's vote results
             candidate_results = (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
-            print(candidate_results,end="")
-            txt_file.write(candidate_results)
+ #           print(candidate_results,end="")
+ #           txt_file.write(candidate_results)
+
+            read_me = (
+                f"{candidate_name} received {vote_percentage:.1f}% of the vote and {votes:,} number of votes.\n"
+            )
+
+            txt_file.write(read_me)
 
         #printing winning candidate summary
         winning_candidate_summary = (
@@ -81,3 +87,5 @@ with open(file_to_load) as election_data:
 
         #print winning candidate summary to text file    
         txt_file.write(winning_candidate_summary)
+
+        
