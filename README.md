@@ -20,11 +20,12 @@ The results of the election shows the following:
 
 - The participating counties were: 
 
-    ![Vote analysis on Participating Counties](County_votes.jpg)
+    ![Vote analysis on Participating Counties](County_Votes.jpg)
 
     - Jefferson with 38,855 number of votes, or 10.5% of the total votes.
     - Denver with 306,055 number of votes, or 82.8% of the total votes.
     - Arapahoe with 24,801 number of votes, or 6.7% of the total votes. 
+
 - The county with largest number of votes was Denver, with 306,055 number of votes, or 82.8% of the total votes.
 
     ![County with Largest number of votes](County_Turnout.jpg)
