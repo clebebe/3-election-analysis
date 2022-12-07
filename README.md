@@ -49,4 +49,22 @@ The results of the election shows the following:
 
 ## Election-Audit Summary
 
-The script used on this congressional election can be used to analyze any election with some modifications. 
+The script used on this congressional election can be used to analyze any election with some modifications. If the data in csv file differs from currently used election file, then user can modify, or re-specify, below small block of code to the corresponding column. 
+
+![Reampping columns](Analysis/Modification_column.jpg)
+
+Based on the current csv, candidate's name was listed in third column, and county name was listed in second column. But if the new file, for example, had candidate's name in second and county's name in third, user can simply change the numbers in `row[]` as shown below to re-map the candidate name column to second and county name to third column.
+``` 
+candidate_name = row[1]
+county_name = row[2] 
+```
+
+<br>
+Another possible modification is to edit out any undesired `print` codes by adding `#` in front of the code to "skip" the designated line of code. For example, if the user only wants to see the candidate results, `c` can be added as shown: <br>
+
+![Print Modification](Analysis/Modification_Print.jpg)
+
+The addition of `#` will skip in printing the county vote results, showing only candidate results. 
+
+![Print Modification Result](Analysis/Modification_print_result.jpg)
+
