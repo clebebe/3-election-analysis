@@ -60,7 +60,7 @@ county_name = row[2]
 ```
 
 <br>
-Another possible modification is to edit out any undesired `print` codes by adding `#` in front of the code to "skip" the designated line of code. For example, if the user only wants to see the candidate results, `#` can be added as shown: <br>
+Another possible modification is to edit out any undesired codes by adding "#" in front of the code to "skip" the designated line of code. For example, if the user only wants to see the candidate results, "#" can be added as shown below: <br><br>
 
 ![Print Modification](Analysis/Modification_print.jpg)
 
