@@ -62,7 +62,7 @@ county_name = row[2]
 <br>
 Another possible modification is to edit out any undesired `print` codes by adding `#` in front of the code to "skip" the designated line of code. For example, if the user only wants to see the candidate results, `c` can be added as shown: <br>
 
-![Print Modification](Analysis/Modification_Print.jpg)
+![Print Modification](Analysis/Modification_print.jpg)
 
 The addition of `#` will skip in printing the county vote results, showing only candidate results. 
 
